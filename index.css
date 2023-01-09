@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    margin:0px;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#lang a{
+    color:blue;
+}
+
+header{
+    border:0px solid green;
+    padding:5px;
+    width:100%;
+    height:60px;
+    position: absolute;top:0px;
+}
+
+.main-container{
+    border:0px solid green;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-style{
+    margin:20px;
+    float: left;
+}
+
+.sch-inp{
+    border:0px solid green;
+    float: left;
+    display: flex;
+    position: relative;
+}
+
+.sch-inp input{
+    padding:10px 10px 10px 50px;
+    border:2px solid rgb(216, 215, 215);
+    font-size: 15px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0px 2px 2px 0px rgb(208, 205, 205);
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+.sch-inp button{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:100%;
+    border-radius: 100%;
+    cursor: pointer;
+    border:0px solid red;
+    background: none;
+    font-size: 15px;
+
+}
+
+
+.gi-div button{
+    padding:5px;
+}
+
+footer{
+    border:0px solid green;
+    width:100%;
+    height:60px;
+    display: flex;
+    flex-direction: column;
+    position:fixed;bottom:0px;
+    background: rgb(240, 240, 240);
+}
+
+footer div{
+    height:30px;
+    padding:10px;
+    border:0px solid red;
+}
+
+.last-footer{
+    border-top: 1px solid rgb(164, 160, 160);
+}
+
+#middle-footer{
+    padding-left: 350px;
+    border:0px solid green;
+}
