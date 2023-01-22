@@ -103,3 +103,16 @@ footer div{
     padding-left: 350px;
     border:0px solid green;
 }
+
+.black-span{
+    border:1px solid black;
+    width:100px;
+    height:10px;
+}
+
+.sec-bl-span{
+    border-radius:20px;
+    border:1px solid black;
+    width:100px;
+    height:20px;
+}
